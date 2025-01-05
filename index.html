@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
-      type="text/css"
-      href="./fonts/lufga-webfont/lufga.css"
     />
     <script src="main.js"></script>
     <title>Plant</title>
   </head>
-  <body style="background-color: #ccc">
-    <header class="container">
+  <body>
+    <header class="container-md">
       <ul class="navs">
         <li><img src="./assets/logo.svg" class="logo" /></li>
         <li class="active"><a href="#home">Home</a></li>
@@ -29,12 +30,49 @@
       </ul>
     </header>
 
-    <main class="container">
-      <section id="home" class="visual">
-        <div class="main-content">
-          <h2>Plantique</h2>
-          <img src="./assets/brand.png" />
-          <p>Đây là phần giới thiệu.</p>
+    <main>
+      <section id="home" class="container-lg bg-visual">
+        <div class="visual">
+          <div class="heading">
+            <h2>Plantique</h2>
+            <div class="brand">
+              <div>grow</div>
+              <img class="leaf" src="./assets/leaf.png" alt="leaf" />
+              <div>th</div>
+            </div>
+            <p class="description">
+              We're your online houseplant destination. We offer a wide range of
+              houseplants and accessories shipped directly from our (greenhouse
+              to yours!
+            </p>
+          </div>
+        </div>
+        <div class="show-more">
+          <div class="show-more-left">
+            <div class="more-plant">
+              <h4>100+ Plants</h4>
+              <p>We want our visitors to be inspire to get their hands dirty</p>
+            </div>
+            <div class="three-cirle-plant">
+              <img
+                src="./assets/plant-elip-1.png"
+                alt=""
+                class="plant-elip"
+              /><img
+                src="./assets/plant-elip-2.png"
+                alt=""
+                class="plant-elip"
+              /><img
+                src="./assets/plant-elip-3.png"
+                alt=""
+                class="plant-elip"
+              />
+            </div>
+          </div>
+          <div class="show-more-right">
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </section>
 
